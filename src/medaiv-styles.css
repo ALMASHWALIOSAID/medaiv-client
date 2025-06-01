@@ -1,0 +1,63 @@
+/* Smooth transitions for buttons and links */
+button,
+a,
+input,
+.feature-box,
+.icon-box,
+.entity-card,
+.single-preview {
+  transition: all 0.3s ease;
+}
+
+/* Hover animations */
+.feature-box:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.entity-card:hover,
+.icon-box:hover,
+.single-preview:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Fade-in animation on page load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.analyze-container,
+.upload-container,
+.login-card,
+.reports-page,
+.hero-section,
+.info-section,
+.icon-row {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Button press animation */
+button:active,
+.result-button:active,
+.export-button:active {
+  transform: scale(0.96);
+}
+
+/* Zoom effect on file previews */
+.file-preview,
+.pdf-preview {
+  transition: transform 0.3s ease;
+}
+
+.file-preview:hover,
+.pdf-preview:hover {
+  transform: scale(1.05);
+}

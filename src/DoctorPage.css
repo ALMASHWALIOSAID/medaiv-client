@@ -1,0 +1,57 @@
+.doctor-page {
+  background: #0a192f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.doctor-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  text-align: center;
+}
+
+.doctor-title {
+  font-size: 28px;
+  color: #0a192f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.doctor-specialty {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.doctor-contact {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.doctor-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.doctor-button {
+  background-color: #0a192f;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.doctor-button:hover {
+  background-color: #061123;
+}

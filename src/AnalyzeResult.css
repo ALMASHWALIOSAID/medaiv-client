@@ -1,0 +1,74 @@
+.chart-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  height: 220px;
+  position: relative;
+}
+.chart-container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.summary-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.export-actions,
+.result-actions {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.export-button,
+.result-button {
+  background-color: #0a192f;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.export-button:hover,
+.result-button:hover {
+  background-color: #061123;
+}
+.entity-summary {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+}
+
+.entity-summary h3 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 1rem;
+}
+
+.entity-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.entity-card {
+  background-color: #f0f8ff;
+  border: 1px solid #0077b6;
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 200px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.entity-card p {
+  margin: 0.3rem 0;
+  font-size: 14px;
+  color: #333;
+}
